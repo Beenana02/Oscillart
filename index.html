@@ -1,9 +1,25 @@
-<div id=”container”>
-
-</div>
-
-<link href="style.css" rel="stylesheet"/>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Oscillart</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <div id=”container”>
+    </div>
+<canvas id="canvas">
+    </canvas>
+    <div id="input-form">
+    <input type="text" id="input">
+        <button id="submit" onclick="handle()">Submit Here</button>  
+    <div>
+<input type="color" id="color" value="#ff0000">
+<input type="range" min="1" max="100" value="100" id="vol-slider">
+<input type="range" min="0" max="100" value="50" id="thickness-slider">
+    </div>
+    </div>
 <script src="main.js"></script>
+</body>
+</html>
 
-<input type="text" id="input">
-<button id="submit" onclick="handle()">Submit Here!</button>
